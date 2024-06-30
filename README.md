@@ -23,12 +23,12 @@ poetry update
 
 Wait until it install all dependencies.
 
-To train models on insurance dataset and save results run:
+To train models on insurance dataset and save results run (will take time):
 ```
 poetry run python insurance.py
 ```
 
-For heart disease dataset:
+For heart disease dataset (will take time):
 ```
 poetry run python heartdisease.py
 ```
@@ -42,6 +42,4 @@ To generate plot for computational complexity part run:
 ```
 poetry run python computation_time_and_tuning.py
 ```
-
-extract computes.7z
 
