@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "AdaBoostAverager"
+version = "0.1.0"
+description = ""
+authors = ["Below Semyon"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+matplotlib = "^3.9.0"
+pandas = "^2.2.2"
+scikit-learn = "1.4.0"
+imbalanced-learn = "^0.12.2"
+pyqt6 = "^6.7.0"
+numpy="1.26.4"
+matplotlib-label-lines = "^0.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
